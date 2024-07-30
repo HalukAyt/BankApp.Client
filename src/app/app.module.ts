@@ -7,7 +7,7 @@ import { AdminModule } from './admin/admin.module';
 import { UiModule } from './ui/ui.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { MatSidenavModule } from '@angular/material/sidenav';
+
 
 @NgModule({
   declarations: [
@@ -18,8 +18,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     BrowserAnimationsModule,
     AppRoutingModule,
     AdminModule,
-    UiModule,
-    MatSidenavModule //ben ekledim
+    UiModule
+   
   ],
   providers: [
     provideClientHydration(),
