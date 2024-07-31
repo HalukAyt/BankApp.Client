@@ -12,7 +12,7 @@ constructor(spinner: NgxSpinnerService){
   super(spinner);
 }
   ngOnInit(): void {
-     this.showSpinner(SpinnerType.BallScaleRippleMultiple);   
+     this.showSpinner(SpinnerType.SquareLoader);   
   }
   
       
